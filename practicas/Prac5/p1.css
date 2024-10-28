@@ -1,0 +1,80 @@
+/* Estilos para el formulario */
+form {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-size: 16px; /* Tamaño del texto */
+    color: #333;     /* Color del texto */
+    font-weight: bold; /* Negrita en los labels */
+}
+
+input, button {
+    margin-bottom: 10px;
+    font-size: 14px;  /* Tamaño del texto en inputs y botones */
+    padding: 5px;     /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Color del botón al pasar el ratón */
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;  /* Tamaño del texto en la tabla */
+    color: #333;      /* Color del texto en la tabla */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+/* Estilos alternos entre renglones */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Estilo al pasar el ratón por un renglón */
+tbody tr:hover {
+    background-color: #d3d3d3;
+}
+
+/* Estilos adicionales para el texto */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #4CAF50;  /* Color del título */
+    text-align: center; /* Centrar el título */
+    margin-bottom: 20px;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white; /* Texto blanco en la cabecera */
+    font-weight: bold;
+}
+
+/* Alineación de texto en los inputs */
+input[type="text"], input[type="email"], input[type="datetime-local"], input[type="color"], input[type="range"] {
+    width: 50%; /* Ancho de los campos de texto */
+}

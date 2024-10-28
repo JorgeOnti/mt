@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: #ffffe0; /* Color de fondo del encabezado */
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d9edf7; /* Color alternado para filas pares */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Color alternado para filas impares */
+}
+
+/* Ajustar ancho de columnas para alineación */
+th, td {
+    width: 14.28%; /* Para que las columnas sean del mismo ancho */
+}
